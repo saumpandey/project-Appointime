@@ -4,6 +4,7 @@ import img1 from '../images/download.png';
 import img2 from '../images/men.jpg';
 import img3 from '../images/bgimage2.jpg';
 import style from './style.css';
+import { Link} from 'react-router-dom';
 
 const Firstdiv = styled.div`
     width: 280px;
@@ -113,6 +114,7 @@ function Firstpage(){
                 <Text>Welcome to AppoinTime</Text>
                 <innerText>Choose your Gender</innerText>
                 <Firstdiv>
+                    <Link to='/women'></Link>
                     <Topcontainer>
                         <Backdrop /> 
                         <Header>
@@ -123,7 +125,7 @@ function Firstpage(){
                 </Firstdiv>
 
                 <Seconddiv>
-                
+                    <Link to='/men'></Link>
                     <Topcontainer>
                         <Backdrop />
                         <Header>
