@@ -92,7 +92,7 @@ const Bg= styled.div`
     background-image: url(${img3});
 `;
 
- function Firstpage(){
+function Firstpage(){
     return(
         <>
             <Bg>
@@ -121,4 +121,4 @@ const Bg= styled.div`
     )
 }
 
-export default Firstpage
+export default Firstpage;
