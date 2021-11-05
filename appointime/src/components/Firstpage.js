@@ -3,13 +3,14 @@ import styled from 'styled-components';
 import img1 from '../images/download.png';
 import img2 from '../images/men.jpg';
 import img3 from '../images/bgimage2.jpg';
+import style from './style.css';
 
 const Firstdiv = styled.div`
     width: 280px;
     height: 300px;
     background-color: #fff;
     display:flex;
-    margin: 13% 25%;
+    margin: 10% 25%;
     flex-direction: column;
     border: 2px solid grey;
     border-radius: 19px;
@@ -36,7 +37,7 @@ const Backdrop = styled.div`
     border-radius: 50%;
     width:160%;
     height: 480px;
-    top: -290px;
+    top: -300px;
     left: -70px;
     transform: rotate(60deg);
     background: rgb(241, 196, 15);
@@ -48,7 +49,7 @@ const Seconddiv = styled.div`
     height: 300px;
     background-color: white;
     display:flex;
-    margin: 13% 60%;
+    margin: 10% 60%;
     flex-direction: column;
     border: 2px solid grey;
     border-radius: 19px;
@@ -71,19 +72,19 @@ const HederText= styled.h2`
 `;
 
 const Image1= styled.img`
-   width: 130px;
-   height: 120px;
+   width: 140px;
+   height: 130px;
    margin-left: 70px;
    position: relative;
-   top:-40px
+   top:5px;
 `;
 
 const Image2= styled.img`
-   width: 160px;
-   height: 140px;
+   width: 170px;
+   height: 150px;
    margin-left: 70px;
    position: relative;
-   top:-20px
+   top:20px;
 `;
 
 const Bg= styled.div`
@@ -92,10 +93,25 @@ const Bg= styled.div`
     background-image: url(${img3});
 `;
 
+const Text = styled.h1`
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+`;
+
+const innerText = styled.h2`
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+`;
+
 function Firstpage(){
     return(
         <>
-            <Bg>
+            <Bg> <br/> <br/>
+                <Text>Welcome to AppoinTime</Text>
+                <innerText>Choose your Gender</innerText>
                 <Firstdiv>
                     <Topcontainer>
                         <Backdrop /> 
