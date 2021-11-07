@@ -3,3 +3,131 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.card-container{
+  padding: 15px;
+  line-height: 40px;
+}
+
+.container{
+  display: block;
+  border-bottom: 4px solid black;
+  margin-bottom: 20px;
+}
+
+.card-title{
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+.card-description{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+  font-size: 29px;
+  font-weight: 550;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.card-services{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 70px;
+  margin-left: 60px;
+}
+
+.card-services ul{
+  list-style: none;
+}
+
+.navbar{
+  padding-top: 50px;
+  text-align: center;
+  background-color: #F0D9FF;
+}
+
+.btn-group{
+  border-radius: 1rem;
+  text-transform: capitalize;
+  background-color: #F0D9FF;
+}
+
+.btn-item{
+    border: none;
+    padding: 20px 18%;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0;
+    background-color: #F0D9FF;
+    font-size: 25px;
+    box-shadow: inset 0px 0px 0px -15px rebeccapurple;
+    transition: all 300ms ease-out;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.btn-item:last-child{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.btn-item:first-child{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.btn-item:hover, .btn-item:focus{
+    color: rebeccapurple;
+    box-shadow: inset 0px -20px 0px -15px rebeccapurple;
+}
+
+.btn-item:focus{
+  outline: none;
+}
+
+.btn-item:after{
+    content: "✔️";
+    margin-left: 0.5rem;
+    display: inline-block;
+    color: rebeccapurple;
+    position: absolute;
+    transform: translatey(10px);
+    opacity: 0;
+    transition: all 200ms ease-out;
+}
+
+.btn-item--active:after{
+    opacity: 1;
+    transform: translatey(-2px);
+}
+
+table{
+  width: 900px;
+  margin-left: 10%;
+}
+
+.button{
+  border: 2px solid navy;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 0;
+  background-color: white;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  box-shadow: inset 0px 0px 0px -15px rebeccapurple;
+  transition: all 300ms ease-out;
+}
+
+.button:hover, .button:focus{
+  box-shadow: inset 0px -20px 0px -15px white;
+  background-color: rebeccapurple ;
+  color: white;
+}
+
+.button:focus{
+  outline: none;
+}
+

@@ -4,7 +4,7 @@ import img1 from '../images/download.png';
 import img2 from '../images/men.jpg';
 import img3 from '../images/bgimage2.jpg';
 import style from './style.css';
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Firstdiv = styled.div`
     width: 280px;
@@ -101,31 +101,24 @@ const Text = styled.h1`
     font-family: 'Times New Roman', Times, serif;
 `;
 
-const innerText = styled.h2`
-    font-size: 30px;
-    font-weight: 300;
-    text-align: center;
-`;
-
 function Firstpage(){
     return(
         <>
             <Bg> <br/> <br/>
                 <Text>Welcome to AppoinTime</Text>
-                <innerText>Choose your Gender</innerText>
+                <Link to="/women">women</Link> <br/>
+                <Link to="/men">men</Link>
                 <Firstdiv>
-                    <Link to='/women'></Link>
                     <Topcontainer>
                         <Backdrop /> 
                         <Header>
                             <HederText>Women</HederText>
-                        </Header>
+                        </Header>   
                     </Topcontainer> <br />
                     <Image1 src={img1}/>
                 </Firstdiv>
 
                 <Seconddiv>
-                    <Link to='/men'></Link>
                     <Topcontainer>
                         <Backdrop />
                         <Header>
