@@ -1,13 +1,14 @@
 import React from "react";
 import './style.css';
+import SalonData from './Api';
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
 
-const SalonCard= ({Data}) =>{
+const SalonCard= () =>{
     return(
         <>
             <div className="card-container">
-                {Data.map((element)=>{
+                {SalonData.map((element)=>{
                     return(
                         <>
                             <div className="container" key={element.id}>
