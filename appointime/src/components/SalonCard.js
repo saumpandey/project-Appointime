@@ -11,7 +11,7 @@ const SalonCard= () =>{
                 {SalonData.map((element)=>{
                     return(
                         <>
-                            <div className="container" key={element.id}>
+                            <div className="container">
                                 <h2 className="card-title">{element.name}</h2>
                                 <div className="card-description">{element.description}</div>
                                 <div className="card-review">{element.reviews} <FaStar/> <FaStar/> <FaStar/> <FaStar/> <FaStarHalfAlt/> </div>

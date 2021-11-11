@@ -1,37 +1,24 @@
 import React from 'react'
 import './style.css';
 import SalonCard from './SalonCard';
-import img4 from '../images/image4.jpg'
-import img5 from '../images/image5.jpg';
-import img6 from '../images/image6.jpg';
-import img7 from '../images/image7.jpg';
+import img3 from '../images/homebanner.jpg';
 
    
 const Secondpage_women= () =>{
 
     return(
         <>
-            <div className="image">
-                <div className="container2" >
-        
-                        <div className="img1">
-                            <img src={img4}></img>
-                        </div>
+                <div className="image">
+                    <img src={img3} style={{
+                        height: '300px',
+                        width:'100%',
+                    }}/>
+                    <div className="text2">Welcome to Salons <br/>
+                        <p>Browse Your favourite Salon and get quick appointment!</p>
+                    </div>
+                </div>
 
-                        <div className="img2">
-                            <img src={img5}></img>
-                        </div>
-
-                        <div className="img3">
-                            <img src={img6}></img>
-                        </div>
-
-                        <div className="img4"> 
-                            <img src={img7}></img>
-                        </div>
-                </div >
-            </div>
-            <div className="navbar">
+            <div className="main">
                 <SalonCard />
             </div>
         </>

@@ -2,19 +2,27 @@ import React from 'react'
 import './style.css';
 import { Link } from 'react-router-dom';
 import image1 from '../images/background.jpg';
+import img1 from '../images/Logo.png';
 
 
 function Firstpage(){
     return(
         <div className="App">
             <div className="navBar">
+                <div className="logo"> <img src={img1} style={{
+                    width: '120px',
+                    height:'140px',
+                }} /> 
+                </div>
+
                 <div className="menu">
                     <ul>
                         <Link to='/'><li>Home</li></Link>
                         <Link to='/products'><li>Shop</li></Link>
-                        <Link to='about'><li>About </li></Link>
-                        <Link to='contact'><li>Contact</li></Link>
-                        <Link to='salon'><li>The Salons</li></Link>
+                        <Link to='/about'><li>About </li></Link>
+                        <Link to='/contact'><li>Contact</li></Link>
+                        <Link to='/salon'><li>The Salons</li></Link>
+                        <Link to='/spa'><li>The Spa</li></Link>
                         
                     </ul>
                  </div>

@@ -3,13 +3,13 @@ const SalonData=[
         id:1,
         name: "Pink Scissor",
         category:"service",
-        description: "Pink Scissor Unisex Salon in Mathura is one of the most well-known Beauty Parlours in the city. Also known as Beauty Spas, Beauty Parlours, Beauty Spas For Women, Salons, Women Beauty Parlours, Hair Straightening Beauty Parlours, Bridal Makeup Artists, Hair Bonding Beauty Parlours, and much more. Best Hair Straightening Salons in Mathura/Top Makeover Salons in Mathura/Famous Women's Beauty Spas in Mathura/Latest Hair Straightening Salons in Mathura/ Best Beauty Parlours For Skin Treatment in Mathura/Top Beauty Parlours For Hair Coloring in Mathura/Famous Women Beauty Parlours in Mathura/Latest Beauty Parlours For Bridal in Mathura.",
+        description: "Pink Scissor Unisex Salon in Mathura is one of the most well-known Beauty Parlours in the city. Also known as Beauty Spas, Beauty Parlours, Beauty Spas For Women, Salons, Women Beauty Parlours, Hair Straightening Beauty Parlours, Bridal Makeup Artists, Hair Bonding Beauty Parlours, and much more. Best Hair Straightening Salons in Mathura.",
         reviews: 4.5,
         service: [
             {
-                hair:"hair traetment",
+                hair:"Hair Treatment",
                 priceH: "2000₹",
-                face: "orange facial",
+                face: "Orange Facial",
                 priceF:"5200₹"
             }
         ]
@@ -23,9 +23,9 @@ const SalonData=[
         reviews: 4.8,
         service:[
             {
-                hair:"hair rub" ,
+                hair:"Hair Rub" ,
                 priceH:"1000₹",
-                face:"pulp facial",
+                face:"Pulp Facial",
                 priceF:"2000₹"
             }
         ]
