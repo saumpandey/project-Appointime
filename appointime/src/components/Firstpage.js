@@ -3,7 +3,8 @@ import './style.css';
 import { Link } from 'react-router-dom';
 import image1 from '../images/background.jpg';
 import img1 from '../images/Logo.png';
-
+import img2 from '../images/shopimage.jpg';
+import img3 from '../images/shopimage2.png';
 
 function Firstpage(){
     return(
@@ -48,6 +49,18 @@ function Firstpage(){
             <div className="box3">
                     <h2>Shop Now</h2>
                     <p>The products are available for delivery or pick-up at salon</p>
+
+                    <div className="shop1">
+                        <img src= {img2} className="firstimage" />
+                        <div className="category1">Hair Tools</div>
+                        <button className="view" >View Product</button>
+                    </div>
+
+                    <div className="shop2">
+                        <img src= {img3} className="firstimage" />
+                        <div className="category1">Skin Care</div>
+                        <button className="view">View Product</button>
+                    </div>
             </div>
         </div>
     )

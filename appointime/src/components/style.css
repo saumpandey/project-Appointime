@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@500&family=Merriweather:ital,wght@1,300&family=Shalimar&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -27,14 +27,14 @@
 .menu{
   float: right;
   list-style: none;
-  margin-left: 60px;
+  margin-left: 70px;
 }
 
 .menu li{
   display: inline-block;
   padding: 40px;
   color: black;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
   font-family: 'Acme', sans-serif;
 }
@@ -103,7 +103,7 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.image{
+.image1{
   position: relative;
 }
 
@@ -122,8 +122,9 @@
 }
 
 .text2 p{
-  font-size: 25px;
+  font-size: 35px;
   padding-top: 10px;
+  font-family: 'Shalimar', cursive;
 }
 
 .main{
@@ -172,7 +173,7 @@ table td{
 }
 
 .button{
-  border: none;
+    border: 1px solid rebeccapurple ;
     padding: 1rem 1rem;
     background-color: rebeccapurple;
     cursor: pointer;
@@ -206,3 +207,183 @@ table td{
     transform: translatey(-2px);
 }
 
+.category{
+  width: 310px;
+  height: 380px;
+  position: fixed;
+  top: 50px;
+  left: 20px;
+  border-right: 2px solid grey;
+  float: left;
+}
+
+.browse{
+  padding: 22px;
+  line-height: 30px;
+  font-size: 30px;
+}
+
+.buttons{
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+  background-color: white;
+  font-family: 'Shalimar', cursive;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons:hover{
+  transform: scale(1.2);
+}
+
+.main-cards{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 10px));
+  grid-gap: 60px;
+  justify-content:space-evenly;
+}
+
+.card{
+  width: 500px;
+  height: 300px;
+  position: relative;
+  top: 55px;
+  border-radius: 20px;
+}
+
+.image{
+  width: 280px;
+  height:100%;
+  float: left;
+}
+
+.des{
+  padding: 20px;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.price{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.cart{
+  padding: 10px;
+  font-size: 17px;
+  margin-top: 10px;
+  background-color: olivedrab;
+  color: white;
+  border: olivedrab;
+  cursor: pointer;
+}
+
+.main-container{
+  position: relative;
+  top: 10px;
+}
+
+.line{
+  width: 800px;
+  height: 80px;
+  position: relative;
+  top: 20px;
+  right: -1400px;
+  font-size: 36px;
+}
+
+.line p{
+  font-size: 28px;
+  position: relative;
+  top: -46px;
+  left: 50px;
+}
+
+.shop1{
+  width: 600px;
+  height: 600px;
+  margin-left: 12%;
+  position: relative;
+  top: 30px;
+  float: left;
+  margin-right: 30px;
+  box-shadow: 0px 10px 9px grey;
+}
+
+.firstimage{
+  width: 100%;
+  height: 100%;
+}
+
+.firstimage:hover{
+  transform: scale(1.02);
+}
+
+.shop2{
+  float: left;
+  width: 600px;
+  height:600px;
+  position: relative;
+  top: 28px;
+  box-shadow: 0px 10px 9px grey;
+}
+
+.category1{
+  position: relative;
+  top: -150px;
+  left: 30px;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.view{
+  position: relative;
+  top: -140px;
+  left: 30px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.cart-btn{
+  border: none;
+  font-size: 30px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.sideBar{
+  width: 500px;
+  height: 700px;
+  background-color: white;
+  position: relative;
+  top: -1800px;
+  left: 1010px;
+  border: 2px solid black;
+}
+
+.cross{
+  background-color: white;
+  border: none;
+  font-size: 29px;
+  position: relative;
+  top: -40px;
+  right: -458px;
+  cursor: pointer;
+}
+
+.header{
+  height: 70px;
+  border-bottom: 2px solid silver;
+}
+
+.header p{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  padding:10px;
+  font-weight: 500;
+}

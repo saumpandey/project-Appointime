@@ -8,7 +8,7 @@ const Secondpage_women= () =>{
 
     return(
         <>
-                <div className="image">
+                <div className="image1">
                     <img src={img3} style={{
                         height: '300px',
                         width:'100%',
