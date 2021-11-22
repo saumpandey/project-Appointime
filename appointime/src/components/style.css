@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@500&family=Merriweather:ital,wght@1,300&family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@500&family=Merriweather:ital,wght@1,300&family=Montagu+Slab&family=Satisfy&family=Shalimar&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -28,11 +28,13 @@
   float: right;
   list-style: none;
   margin-left: 70px;
+  display: flex;
+  flex-direction: row;
 }
 
 .menu li{
   display: inline-block;
-  padding: 40px;
+  padding: 37px;
   color: black;
   font-size: 40px;
   font-weight: 500;
@@ -40,7 +42,6 @@
 }
 
 .menu li:hover{
-  color: pink;
   cursor: pointer;
 }
 
@@ -105,6 +106,7 @@
 
 .image1{
   position: relative;
+  opacity: 0.8;
 }
 
 .text2{
@@ -115,7 +117,7 @@
   font-size: 60px;
   text-align: center;
   background-color: white;
-  right: -400px;
+  right: -370px;
   width: 800px;
   height: 170px;
   font-family: 'Times New Roman', Times, serif;
@@ -154,59 +156,6 @@
   font-size: 20px;
 }
 
-.heading{
-  padding: 10px;
-  font-size: 32px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 700;
-}
-
-table{
-  text-align: center;
-  margin-bottom: 2%;
-}
-
-table td{
-  width: 300px;
-  font-size: 27px;
-  line-height: 60px;
-}
-
-.button{
-    border: 1px solid rebeccapurple ;
-    padding: 1rem 1rem;
-    background-color: rebeccapurple;
-    cursor: pointer;
-    margin: 0;
-    font-size: 16px;
-    box-shadow: inset 0px 0px 0px -15px white;
-    transition: all 300ms ease-out;
-    text-transform: capitalize;
-    border-top-right-radius: 2rem;
-    color: white;
-    border-bottom-right-radius: 2rem;
-}
-
-.button:hover, .button:focus{
-  color: white;
-  box-shadow: inset 0px -20px 0px -15px white;
-}
-
-.button:after{
-    margin-left: 0.5rem;
-    display: inline-block;
-    color: whitesmoke;
-    position: absolute;
-    transform: translatey(10px);
-    opacity: 0;
-    transition: all 200ms ease-out;
-}
-
-.button--active:after{
-    opacity: 1;
-    transform: translatey(-2px);
-}
-
 .category{
   width: 310px;
   height: 380px;
@@ -235,7 +184,7 @@ table td{
 }
 
 .buttons:hover{
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
 .main-cards{
@@ -387,3 +336,225 @@ table td{
   padding:10px;
   font-weight: 500;
 }
+.book{
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  margin-left: 30px;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.icon{
+  font-size: 26px;
+  border: none;
+  position: relative;
+  background-color: white;
+  cursor: pointer;
+}
+
+.service{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.service button{
+  font-size: 18px;
+  padding: 10px;
+  margin: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  color: white;
+  border-radius: 13px;
+  width: 80%;
+}
+
+.service button:hover{
+  background-color: silver;
+  color: black;
+  border: 2px solid silver;
+}
+
+.select{
+  margin: 20px;
+  font-size: 25px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.background{
+ width: 100%;
+ height: 100vh;
+ background: rgba(0, 0, 0, 0.8);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.wrapper{
+  width: 800px;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.2);
+  background: white;
+  color: black;
+  position: relative;
+}
+
+.cut{
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: silver;
+  position: relative;
+  cursor: pointer;
+  font-size: 25px;
+  color: white;
+  left: 740px;
+  top: 6px;
+}
+
+.wrapper p{
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  color: grey;
+  padding: 10px;
+  position: relative;
+  top: -48px;
+}
+
+.salon-service{
+  width: 80%;
+  height: 150px;
+  margin: 20px;
+}
+
+.services1{
+  font-family: 'Satisfy', cursive;
+  padding: 20px;
+  font-size: 30px;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+
+.services-price{
+  font-family:'Satisfy', cursive;
+  padding: 20px;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.services-time{
+  font-family: 'Satisfy';
+  padding: 20px;
+  font-size: 20px;
+}
+
+.booking{
+  float: right;
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+  background-color:white;
+  position: relative;
+  top: -60px;
+  left: -20px;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.booking:hover{
+  transform: scale(1.1);
+ transition: 2ms;
+}
+
+.mainBar{
+  width: 60%;
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  top: -2700px;
+  left: 300px;
+}
+
+.cut{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: grey;
+  color: white;
+  font-size: 25px;
+  position: relative;
+  left: 860px;
+  top: 10px;
+}
+
+.spa-container{
+  position: relative;
+  top: -170px;
+  width: 100%;
+  height: 800px;
+  background-color: wheat;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.image-spa{
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.service-spa{
+  width: 800px;
+  height: 300px;
+  position: relative;
+  top: -300px;
+  left: 600px;
+}
+
+.s1{
+  font-family: 'Montagu Slab', serif;
+  font-size: 29px;
+  padding: 20px;
+  line-height: 60px;
+}
+
+.p1{
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.explore-service{
+  padding: 20px;
+  font-size: 40px;
+  font-family:"Acme";
+  position: relative;
+  top: -30px;
+}
+
+.book-spa{
+  font-size: 24px;
+  padding: 10px;
+  font-family:'Dancing Script', cursive;
+  background-color: rosybrown;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px brown;
+  position: relative;
+  left: 50px;
+  margin: 15px;
+}
+

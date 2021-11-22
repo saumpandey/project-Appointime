@@ -1,16 +1,33 @@
+import React from "react";
+import { FaStar } from "react-icons/fa";
+import { FaStarHalfAlt } from "react-icons/fa";
+
 const SalonData=[
     {
         id:1,
-        name: "Pink Scissor",
-        category:"service",
+        name: "Meadows wellness",
         description: "Pink Scissor Unisex Salon in Mathura is one of the most well-known Beauty Parlours in the city. Also known as Beauty Spas, Beauty Parlours, Beauty Spas For Women, Salons, Women Beauty Parlours, Hair Straightening Beauty Parlours, Bridal Makeup Artists, Hair Bonding Beauty Parlours, and much more. Best Hair Straightening Salons in Mathura.",
-        reviews: 4.5,
+        reviews: '<FaStar/> <FaStar/> <FaStar/> <FaStar/> <FaStarHalfAlt/>',
         service: [
             {
-                hair:"Hair Treatment",
-                priceH: "2000₹",
-                face: "Orange Facial",
-                priceF:"5200₹"
+               hair:'Haircut + Hair Wash + Blow-Dry',
+               priceH:'499₹',
+               timeH:'45 min',
+               body:'Aroma Manicure + Pedicure',
+               priceB:'699₹',
+               timeB:'30 min',
+               face:'Organic/Fresh Fruit Facial',
+               priceF:'999₹',
+               timeF:'1 hr',
+               makeup:'Light Party Make-up : Kryolan Makeup + Hair Styling + Nail Paint',
+               priceM:'2,499₹',
+               timeM:'1.5 hr',
+               wax:' White Chocolate Waxing (Full Arms + Full Legs + Under arms)',
+               priceW:'899₹',
+               timeW:'45 min',
+               nail:'3 D Nail Art With Gel Nail Paint ( Hand 10 Finger)',
+               priceN:'599₹',
+               timeN:'15 min',
             }
         ]
     },
@@ -23,10 +40,24 @@ const SalonData=[
         reviews: 4.8,
         service:[
             {
-                hair:"Hair Rub" ,
-                priceH:"1000₹",
-                face:"Pulp Facial",
-                priceF:"2000₹"
+               hair:'Keratin Treatment / Smoothening/ Straightening /Global Hair Color (Mid Back Length)',
+               priceH:'1,999₹',
+               timeH:'40 min',
+               face:'Anti Acne Facial With Rubber Mask',
+               priceF:'1,299₹',
+               timeF:'1 hr',
+               wax:'Rica Waxing ( FA+FL+UA) + Threading (Eyebrow+Upperlip)',
+               priceW:'799₹',
+               timeW:'50 min',
+               nail:'Nail Extension + Gel Nail Paint + Nail Art ( Hand 10 Finger)',
+               priceN:'1,199₹',
+               timeN:'20 min',
+               makeup:'MAC/Kryolan/Huda Beauty Party Makeup + Hairdo + Dress Draping',
+               priceM:'1,849₹' ,
+               timeM:'2 hr',
+               body:'De-Tan + Cleanup + Manicure + Pedicure + Threading',
+               priceB:'899₹',
+               timeB:'1 hr' 
             }
         ]
     },
@@ -107,3 +138,51 @@ export const Product=[
         price:'695₹'   
     },
 ];
+
+export const SpaApi=[
+    {
+        id:1,
+        img:'assets/spa1.jpg',
+        review: "3.4",
+        service: [
+            {
+                s1:'Full Body Massage (Thai) (45 mins) + Shower (15 mins)',
+                price:'845₹',
+                s2:'Full Body Massage (Swedish) (60 mins) + Shower (15 mins)',
+                price2:'1,170₹',
+                s3:'Full Body Massage (Deep Tissue) (60 mins) + Shower (15 mins)',
+                price3:'1,625₹'
+            }
+        ]
+    },
+    {
+        id:2,
+        img:'assets/spa2.jpg',
+        review:'4.6',
+        service:[
+            {
+                s1:'Full Body Massage (with organic cold-pressed oil) 50 mins + Shower (10 mins)',
+                price:'1,799₹',
+                s2:'Full Body Massage(60 mins) + Full Body Scrub(50 mins) + Shower (10 minutes)',
+                price2:'2,999₹',
+                s3:'Signature Foot Massage / Head Massage / De-Stress Back and Shoulder massage (30 mins)',
+                price3:'799₹'
+            }
+        ]
+    },
+    {
+        id:3,
+        img:'./assets/spa3.jpg',
+        review:'4.4',
+        service:[
+            {
+                s1:'Full Body Scrub (30min) + Choice of Full Body Massage (30min) + Shower (15min)',
+                price:'999₹',
+                s2:'Full Body Wine Scrub (30min) + Choice of Full Body Massage (30min) + Shower (15min)',
+                price2:'1,499₹',
+                s3:'Turkish Full Body Massage (60 mins) + Shower (15 mins)',
+                price3:'2,199₹'
+            }
+        ]
+    }
+]
