@@ -1,34 +1,15 @@
 import React from 'react'
 import './style.css';
-import { FaAngleDown } from "react-icons/fa";
-import { Link, Outlet } from 'react-router-dom';
 import image1 from '../images/background.jpg';
-import img1 from '../images/Logo.png';
 import img2 from '../images/shopimage.jpg';
 import img3 from '../images/shopimage2.png';
+import Footer from './Footer';
+import Navbar from './Navbar';
 
 function Firstpage(){
     return(
         <div className="App">
-            <div className="navBar">
-                <div className="logo"> <img src={img1} style={{
-                    width: '120px',
-                    height:'140px',
-                }} /> 
-                </div>
-
-                <div className="menu">
-                    <ul>
-                        <Link to='/'><li>Home</li></Link>
-                        <Link to='/products'><li>Shop</li></Link>
-                        <Link to='/salon'><li>The Salons <button  className="icon"><FaAngleDown /></button> </li></Link>
-                        <Link to='/spa'><li>The Spa</li></Link>
-                        <Link to='/contact'><li>Contact</li></Link> 
-                        <button className="book">Book Now</button>   
-                    </ul>
-                    
-                 </div>
-            </div>  
+            <Navbar/>
             <div className="backgroundimage">
                     <img src={image1} style={{
                         width: '100%',
@@ -63,6 +44,7 @@ function Firstpage(){
                         <button className="view">View Product</button>
                     </div>
             </div>
+            <Footer/>
         </div>
     )
 }

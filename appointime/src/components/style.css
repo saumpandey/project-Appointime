@@ -22,6 +22,7 @@
 
 .logo{
   margin-left: 7%;
+  margin-top: 10px;
 }
 
 .menu{
@@ -32,7 +33,7 @@
   flex-direction: row;
 }
 
-.menu li{
+.menu li {
   display: inline-block;
   padding: 37px;
   color: black;
@@ -41,12 +42,17 @@
   font-family: 'Acme', sans-serif;
 }
 
+.menu a{
+  text-decoration: none;
+}
+
 .menu li:hover{
   cursor: pointer;
 }
 
 .backgroundimage{
   position: relative;
+  top: 10px;
 }
 
 .text{
@@ -63,7 +69,7 @@
 
 .box2{
   width: 100%;
-  height: 230px;
+  height: 240px;
   position: relative;
   background-color: #dadada;
   top: -200px;
@@ -89,6 +95,7 @@
   position: relative;
   top: -170px;
   height: 500px;
+  margin-bottom: 20%;
 }
 
 .box3 h2{
@@ -111,7 +118,7 @@
 
 .text2{
   position: relative;
-  top: -240px;
+  top: -350px;
   color: black;
   padding: 20px;
   font-size: 60px;
@@ -131,37 +138,49 @@
 
 .main{
   position: relative;
-  top: -90px;
+  top: -140px;
 }
+
 .container{
-  border: 2px solid black;
+  border-radius: 20px;
   margin-bottom: 2%;
-}
-.card-title{
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 40px;
-  padding: 15px;
+  background-color: #D79771;
 }
 
 .card-description{
   line-height: 40px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 19px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 23px;
   padding: 15px;
+  white-space: pre-wrap;
+  position: relative;
+  top: -330px;
+  left: 560px;
 }
 
 .card-review{
   padding: 10px;
   font-size: 20px;
+  position: relative;
+  top: -320px;
+  left: 570px;
 }
 
+.main-service{
+  position: relative;
+  top: -210px;
+}
+
+.main-container{
+  margin-top: 2%;
+  margin-bottom: 16%;
+}
 .category{
   width: 310px;
   height: 380px;
-  position: fixed;
-  top: 50px;
-  left: 20px;
+  position: relative;
+  top: 40px;
+  left: -1170px;
   border-right: 2px solid grey;
   float: left;
 }
@@ -192,6 +211,8 @@
   grid-template-columns: repeat(2, minmax(150px, 10px));
   grid-gap: 60px;
   justify-content:space-evenly;
+  position: relative;
+  left: 170px;
 }
 
 .card{
@@ -436,6 +457,7 @@
   width: 80%;
   height: 150px;
   margin: 20px;
+  padding: 20px;
 }
 
 .services1{
@@ -461,17 +483,15 @@
 
 .booking{
   float: right;
-  border: none;
   font-size: 18px;
   padding: 15px;
-  background-color:white;
   position: relative;
   top: -60px;
   left: -20px;
-  background-color: rebeccapurple;
-  color: white;
+  background-color: wheat;
   border-radius: 15px;
   cursor: pointer;
+  box-shadow: 3px 3px 3px brown;
 }
 
 .booking:hover{
@@ -539,8 +559,8 @@
 
 .explore-service{
   padding: 20px;
-  font-size: 40px;
-  font-family:"Acme";
+  font-size: 70px;
+  font-family: "Shalimar";
   position: relative;
   top: -30px;
 }
@@ -556,5 +576,98 @@
   position: relative;
   left: 50px;
   margin: 15px;
+  border-radius: 20px;
 }
 
+.footer{
+  width: 100%;
+  height: 700px;
+  margin-top: auto;
+  background-color: #dadada;
+  position: relative;
+  top: -100px;
+}
+
+.footer hr{
+  opacity: 0.2;
+}
+
+.section-1{
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+
+.article2{
+  position: relative;
+  top: -370px;
+  left: 600px;
+}
+
+.article2 h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  line-height: 70px;
+}
+
+.article2 a{
+  line-height: 60px;
+  padding: 20px;
+  font-size: 25px;
+  font-family: "Merriweather";
+  text-decoration: none;
+  color: black;
+}
+
+.article2 a:hover{
+  color: blue;
+}
+
+.article3{
+  position: relative;
+  top: -680px;
+  left: 990px;
+}
+
+.article3 h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  line-height: 70px;
+}
+
+.article3 ul{
+  list-style: none;
+  line-height: 40px;
+}
+
+.article3 li{
+  font-family: "Merriweather";
+  font-size: 25px;
+  padding: 20px;
+}
+
+.section-3{
+  position: relative;
+  top: -600px;
+  left: 470px;
+}
+
+.section-3 ul{
+  list-style: none;
+  display: flex;
+}
+
+.section-3 li{
+  font-size: 50px;
+  padding: 50px;
+}
+
+.section-4{
+  position: relative;
+  top: -600px;
+}
+
+.section-4 p{
+  text-align: center;
+}

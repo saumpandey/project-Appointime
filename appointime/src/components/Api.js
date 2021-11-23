@@ -1,13 +1,9 @@
-import React from "react";
-import { FaStar } from "react-icons/fa";
-import { FaStarHalfAlt } from "react-icons/fa";
-
 const SalonData=[
     {
         id:1,
-        name: "Meadows wellness",
-        description: "Pink Scissor Unisex Salon in Mathura is one of the most well-known Beauty Parlours in the city. Also known as Beauty Spas, Beauty Parlours, Beauty Spas For Women, Salons, Women Beauty Parlours, Hair Straightening Beauty Parlours, Bridal Makeup Artists, Hair Bonding Beauty Parlours, and much more. Best Hair Straightening Salons in Mathura.",
-        reviews: '<FaStar/> <FaStar/> <FaStar/> <FaStar/> <FaStarHalfAlt/>',
+        image:'assets/salon1.jpg',
+        description: "Meadows Wellness is an Unisex Salon in Mathura is one of the most well-known Beauty Parlours \n in the city. Also known as Beauty Spas, Beauty Parlours, Beauty Spas For Women, Salons, \n Women Beauty Parlours, Hair Straightening Beauty Parlours, Bridal Makeup Artists, \n Hair Bonding Beauty Parlours, and much more. Best Hair Straightening Salons in Mathura.",
+        reviews:4.5,
         service: [
             {
                hair:'Haircut + Hair Wash + Blow-Dry',
@@ -34,9 +30,9 @@ const SalonData=[
 
     {
         id:2,
-        name: "NS4 Hair and Beauty Salon",
+        image:'assets/salon2.jpg',
         category:"service",
-        description: "Ns4 Beauty & Salon established in 2008. Now one of the biggest salon chains in Uttar Pradesh India having presence in many cities. Strands have been immensely successful needless to say, being an associate to huge brand like “NS4”.",
+        description: "Revive Hair and Beauty Salon established in 2008. Now one of the biggest salon chains in Uttar Pradesh India \n having presence in many cities. Strands have been immensely successful needless to say, being an \n associate to huge brand like “Revive”.",
         reviews: 4.8,
         service:[
             {

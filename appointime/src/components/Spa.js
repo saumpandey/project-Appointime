@@ -2,14 +2,18 @@ import React from 'react';
 import './style.css';
 import { SpaApi } from './Api';
 import img4 from '../images/bgspa.jpg';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 const Spa = () => {
     return (
         <div>
+            <Navbar/>
              <div className="image1">
                     <img src={img4} style={{
-                        height: '300px',
+                        height: '500px',
                         width:'100%',
+                        marginTop:'10px'
                     }}/>
                     <div className="text2">Welcome to Spa <br/>
                         <p>Browse Your favourite Spa and just relax!</p>
@@ -41,6 +45,7 @@ const Spa = () => {
                     })}
                    
                 </div>
+                <Footer/>
         </div>
     )
 }
