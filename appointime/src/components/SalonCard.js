@@ -6,6 +6,10 @@ import { FaStarHalfAlt } from "react-icons/fa";
 
 const SalonCard= () =>{
 
+    function LinkNext(){
+       <a href="http://localhost/calendar.php?month=12&year=2021" target=''></a>
+    }
+
     return(
         <div className="main-card">
             <div className="card-container">
@@ -23,7 +27,7 @@ const SalonCard= () =>{
                                             <span className="services1">{e.hair}</span> <br/>
                                             <span className="services-price">{e.priceH}</span> <br/>
                                             <span className="services-time">{e.timeH}</span>
-                                            <button className="booking">Book Now</button>
+                                            <button className="booking" onClick={LinkNext}>Book Now</button>
                                         </div>
 
                                         <div className="salon-service">

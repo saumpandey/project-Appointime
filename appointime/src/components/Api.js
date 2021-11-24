@@ -25,7 +25,7 @@ const SalonData=[
                priceN:'599₹',
                timeN:'15 min',
             }
-        ]
+        ],
     },
 
     {
@@ -55,7 +55,7 @@ const SalonData=[
                priceB:'899₹',
                timeB:'1 hr' 
             }
-        ]
+        ],
     },
 ]
 
