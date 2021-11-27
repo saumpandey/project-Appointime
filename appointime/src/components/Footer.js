@@ -11,10 +11,9 @@ import './style.css';
 
 function Footer(){
     return(
-        <>
+        <div class="main-footer">
             <div class="footer">
                 <div class="section-1">
-
                     <img src={logo} style={{
                         height: '280px',
                         width: '260px',
@@ -32,8 +31,11 @@ function Footer(){
                     <div class="article3">
                         <h2>Contact Us</h2>
                         <ul>
-                           <li> theappointime@gmail.com <FaEnvelope/></li>
-                           <li> Contact No. 9045414351 <FaPhoneSquareAlt/></li>
+                           <a href="mailto: thappointime@gmail.com" style={{
+                               textDecoration:'none',
+                               color:'black'
+                           }}> <li>  <FaEnvelope/> theappointime@gmail.com </li> </a>
+                           <li> <FaPhoneSquareAlt/> Contact No. 9045414351 </li>
                         </ul>
                     </div>
                 </div>
@@ -54,13 +56,14 @@ function Footer(){
                        }}/></li>
                     </ul>
                 </div>
+                
                 <div class="section-4">
                     <p>
                         Copyright &copy; 2020 All Rights Reserved by <span>The AppoinTime</span>
                     </p>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 export default Footer;

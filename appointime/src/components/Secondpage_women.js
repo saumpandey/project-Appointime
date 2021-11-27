@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 const Secondpage_women = () => {
   return (
-    <>
+    <div>
       <Navbar/>  
       <div className="image1">
         <img
@@ -27,8 +27,9 @@ const Secondpage_women = () => {
       <div className="main">
         <SalonCard />
       </div>
+
       <Footer/>
-    </>
+    </div>
   );
 };
 

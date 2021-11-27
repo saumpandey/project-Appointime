@@ -7,7 +7,7 @@ import { FaStarHalfAlt } from "react-icons/fa";
 const SalonCard= () =>{
 
     function LinkNext(){
-       <a href="http://localhost/calendar.php?month=12&year=2021" target=''></a>
+       <a href="http://localhost/calendar.php" target=''></a>
     }
 
     return(

@@ -5,6 +5,7 @@ import img2 from '../images/shopimage.jpg';
 import img3 from '../images/shopimage2.png';
 import Footer from './Footer';
 import Navbar from './Navbar';
+import { Team } from './Api';
 
 function Firstpage(){
     return(
@@ -43,6 +44,19 @@ function Firstpage(){
                         <div className="category1">Skin Care</div>
                         <button className="view">View Product</button>
                     </div>
+            </div>
+            
+            <div className="heading-about">About Team Member</div>
+            <div className="row">
+                        {Team.map((e) =>{
+                            return(
+                                <div className="card-about">
+                                   <img src={e.img} className="avatar"></img>
+                                    <span className="team-member">{e.name}</span> <br/>
+                                    <span className="description-about">{e.description}</span>
+                                </div>
+                            )
+                        })}
             </div>
             <Footer/>
         </div>

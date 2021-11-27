@@ -1,11 +1,14 @@
-import React from 'react';
+import React,{useState} from 'react';
 import img1 from '../images/Logo.png';
 import './style.css';
 import { FaAngleDown } from "react-icons/fa";
-import {Link} from 'react-router-dom';
-import Blog from './Blog';
+import {FiX} from "react-icons/fi";
+import {FaBars} from "react-icons/fa";
 
 const Navbar = () => {
+
+    const [show, setShow] = useState(false);
+
     return (
         <div>
             <div className="navBar">
@@ -16,17 +19,32 @@ const Navbar = () => {
                 </div>
 
                 <div className="menu">
-                    <ul>
+                    <input type="checkbox" id="chk" />
+                    <label for="chk" className="show-btn">
+                        <FaBars/>
+                    </label>
+                    <ul className="menu-list">
                         <a href="/"><li>Home</li></a>
                         <a href="/products"> <li>Shop</li> </a>
-                        <a href="/salon"> <li>The Salons <button  className="icon"><FaAngleDown /></button> </li> </a>
+                        <li>The Salons <button  className="icon" onClick={()=>setShow(!show)}><FaAngleDown /></button> </li>
                         <a href="/spa"> <li>The Spa</li> </a>
                         <a href="/blog"><li>Blog</li> </a>
                         <button className="book">Book Now</button>   
-                    </ul>
-                    
+
+                        <label for="chk" className="hide-btn"><FiX/></label>
+                    </ul>   
                  </div>
-            </div>  
+            </div>
+
+            {
+               show?<div className="dropBar">
+                        <div className="drop-box">
+                            <a href="/salon_women">Women</a> <br/>
+                            <a href="/salon_men">Men</a>
+                        </div>
+                    </div>:null
+            } 
+
         </div>
     )
 }
