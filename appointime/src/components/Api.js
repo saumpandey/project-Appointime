@@ -200,23 +200,23 @@ export const BlogApi=[
     {
         img:'assets/image7.jpg',
         name:'How Massage Can Reduce Stress',
-        description:'Stress is something that we all deal with throughout our lives. And while it is common, it can have negative effects on our bodies and minds. For this reason, it is important that you try to reduce your stress as much as possible. Luckily, there are many ways to reduce stress and help you feel Sometimes it can be hard…',
+        description:'Stress is something that we all deal with throughout our lives. And while it is common, it can have negative \n effects on our bodies and minds. For this reason, it is important that you try to reduce your stress as much \n as possible. Luckily, there are many ways to reduce stress and help you feel Sometimes it can be hard…',
         link:'Read More'
     },
 
     {
         img:'assets/image8.jpg',
         name:'Different HairCut For Summer',
-        description:'Summer fun is just around the corner and that means you will be spending more time outside in the heat, swimming in lakes and pools, and driving with the windows down! While summer brings a ton of fun outdoor activities, it also brings a constant mess of hair. If you are sick of having to If you are one of those women…',
+        description:'Summer fun is just around the corner and that means you will be spending more time outside in the heat, \n swimming in lakes and pools, and driving with the windows down! While summer brings a ton of fun outdoor \n activities, it also brings a constant mess of hair. If you are sick of having to If you are one of those women…',
         link:'Read More'
     },
 
-    {
-        img:'assets/image9.jpg',
-        name:'Exactly What Happens to Your Face When You’re Stressed',
-        description:'“When your emotions are high, your cortisol levels spike and trigger your oil glands to produce more oil,” says Mona Gohara, M.D., a board-certified dermatologist and associate clinical professor of dermatology at Yale School of Medicine. “That oil then feeds acne-causing bacteria in your skin, leading to, yes, acne.”',
-        link:'Read More'
-    }
+    // {
+    //     img:'assets/image9.jpg',
+    //     name:'Exactly What Happens to Your Face When You’re Stressed',
+    //     description:'“When your emotions are high, your cortisol levels spike and trigger your oil glands to produce more oil,” says Mona Gohara, M.D., a board-certified dermatologist and associate clinical professor of dermatology at Yale School of Medicine. “That oil then feeds acne-causing bacteria in your skin, leading to, yes, acne.”',
+    //     link:'Read More'
+    // }
 ]
 
 export const MenApi=[

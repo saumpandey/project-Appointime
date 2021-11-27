@@ -687,8 +687,12 @@
 }
 
 .section-3 li{
-  font-size: 50px;
+  font-size: 60px;
   padding: 50px;
+}
+
+.section-3 li:hover{
+  transform: translateY(-10px);
 }
 
 .section-4{
@@ -752,41 +756,79 @@
   font-weight: 800;
 }
 
-.blog-image{
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-  margin-bottom: 30px;
+.blog-card{
+  margin-top: 30px;
 }
 
-.blog-service{
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: relative;
+.main-blog{
+  margin-bottom: 10%;
+}
+.margin{
+  margin: 5% 0;
 }
 
-.blog-name{
-  font-size: 50px;
+.parallax{
+  background-image: url("https://media.istockphoto.com/photos/classic-grooming-and-hairdressing-tools-on-wooden-background-picture-id1209208663?k=20&m=1209208663&s=612x612&w=0&h=ENYh13pn76o20PCmw5uLzNAtxy-oWl27q-xEZMfxXMI=");
+  height: 140vh;
+  width: 100%;
+  flex-direction: column;
+  background-size: cover;
+  background: no-repeat scroll center scroll;
+  background-attachment: fixed;  
+}
+
+.inner{
+  background-color: rgba(0, 0, 0, 0.8)
+}
+
+.inner h1{
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 70px;
   font-family: 'Times New Roman', Times, serif;
-  padding: 10px;
-  line-height: 70px;
-  font-weight: 600;
 }
 
-.blog-des{
+.inner2{
+  margin: 20px;
+}
+
+.inner2 img{
+  height: 300px;
+  width: 500px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.inner2 span{
+  font-size: 40px;
+  color: white;
+  padding: 20px;
+  font-family:  'Montagu Slab', serif;
   position: relative;
-  left: 20px;
-  line-height: 50px;
-  font-size: 25px;
-  color: rgba(255, 255, 255, 0.5);
+  top: -260px;
 }
 
-.blog-link{
+.inner2 p{
   font-size: 20px;
+  color: white;
+  padding: 10px;
   position: relative;
-  left: 10px;
-  top: 20px;
+  top: -200px;
+  left: 530px;
+  white-space: pre-line;
+}
+
+.inner2 a{
+  font-size: 20px;
   color: blue;
+  position: relative;
+  top: -200px;
+  left: 540px;
+}
+
+.inner2 a:hover{
+  color: black;
 }
 
 .drop-box{
