@@ -36,13 +36,13 @@ function Firstpage(){
                     <div className="shop1">
                         <img src= {img2} className="firstimage" />
                         <div className="category1">Hair Tools</div>
-                        <button className="view" >View Product</button>
+                        <a href="/products"><button className="view" >View Product</button></a>
                     </div>
 
                     <div className="shop2">
                         <img src= {img3} className="firstimage" />
                         <div className="category1">Skin Care</div>
-                        <button className="view">View Product</button>
+                        <a href="/products"><button className="view">View Product</button></a>
                     </div>
             </div>
             

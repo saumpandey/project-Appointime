@@ -29,7 +29,8 @@ const Navbar = () => {
                         <li>The Salons <button  className="icon" onClick={()=>setShow(!show)}><FaAngleDown /></button> </li>
                         <a href="/spa"> <li>The Spa</li> </a>
                         <a href="/blog"><li>Blog</li> </a>
-                        <button className="book">Book Now</button>   
+
+                        <a href="http://localhost/db.php"> <button className="book">Book Now</button></a>
 
                         <label for="chk" className="hide-btn"><FiX/></label>
                     </ul>   

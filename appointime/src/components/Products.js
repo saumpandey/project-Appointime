@@ -28,7 +28,7 @@ const Products= () =>{
                 <div className="menu">
                     <div className="category">
                         <span className='browse'>Browse By Category</span> <br/> <br/>
-                        <button className="buttons" onClick={() => setItems(Product)} >All Items</button> <br />
+                       <button className="buttons" onClick={() => setItems(Product)} >All Items</button> <br />
                         <button className="buttons" onClick={() => filterItem('skin')} >Skin Care</button> <br />
                         <button className="buttons" onClick={() => filterItem('tool')} >Hair Tools</button> <br />
                         <button className="buttons" onClick={() => filterItem('hair')} >Special Hair Care</button> <br />

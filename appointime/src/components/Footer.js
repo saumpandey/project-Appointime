@@ -23,7 +23,7 @@ function Footer(){
                     <div class="article2">
                         <h2>Quick Links</h2>
                         <a href="/"> Home<br/></a>
-                        <a href="/salon"> Salon<br/></a>
+                        <a href="/salon_women"> Salon<br/></a>
                         <a href="/spa"> Spa<br/></a>
                         <a href="/blog"> Blog<br/></a>
                     </div>

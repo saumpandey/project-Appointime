@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import SalonCard from "./SalonCard";
-import img3 from "../images/homebanner.jpg";
+import img4 from "../images/women-bg.jpg";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
@@ -11,11 +11,12 @@ const Secondpage_women = () => {
       <Navbar/>  
       <div className="image1">
         <img
-          src={img3}
+          src={img4}
           style={{
             height: "500px",
             width: "100%",
-            marginTop:'10px'
+            marginTop:'20px',
+            objectFit:'cover',
           }}
         />
         <div className="text2">

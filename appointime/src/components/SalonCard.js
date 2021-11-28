@@ -6,10 +6,6 @@ import { FaStarHalfAlt } from "react-icons/fa";
 
 const SalonCard= () =>{
 
-    function LinkNext(){
-       <a href="http://localhost/calendar.php" target=''></a>
-    }
-
     return(
         <div className="main-card">
             <div className="card-container">
@@ -27,42 +23,42 @@ const SalonCard= () =>{
                                             <span className="services1">{e.hair}</span> <br/>
                                             <span className="services-price">{e.priceH}</span> <br/>
                                             <span className="services-time">{e.timeH}</span>
-                                            <button className="booking" onClick={LinkNext}>Book Now</button>
+                                            <a href="http://localhost/db.php"><button className="booking">Book Now</button> </a>
                                         </div>
 
                                         <div className="salon-service">
                                             <span className="services1">{e.face}</span> <br/>
                                             <span className="services-price">{e.priceF}</span> <br/>
                                             <span className="services-time">{e.timeF}</span>
-                                            <button className="booking">Book Now</button>
+                                            <a href="http://localhost/db.php"><button className="booking">Book Now</button></a>
                                         </div>
 
                                         <div className="salon-service">
                                             <span className="services1">{e.wax}</span> <br/>
                                             <span className="services-price">{e.priceW}</span> <br/>
                                             <span className="services-time">{e.timeW}</span>
-                                            <button className="booking">Book Now</button>
+                                            <a href="http://localhost/db.php"><button className="booking">Book Now</button></a>
                                         </div>
 
                                         <div className="salon-service">
                                             <span className="services1">{e.body}</span> <br/>
                                             <span className="services-price">{e.priceB}</span> <br/>
                                             <span className="services-time">{e.timeB}</span>
-                                            <button className="booking">Book Now</button>
+                                            <a href="http://localhost/db.php"><button className="booking">Book Now</button></a>
                                         </div>
 
                                         <div className="salon-service">
                                             <span className="services1">{e.makeup}</span> <br/>
                                             <span className="services-price">{e.priceM}</span> <br/>
                                             <span className="services-time">{e.timeM}</span>
-                                            <button className="booking">Book Now</button>
+                                            <a href="http://localhost/db.php"><button className="booking">Book Now</button></a>
                                         </div>
 
                                         <div className="salon-service">
                                             <span className="services1">{e.nail}</span> <br/>
                                             <span className="services-price">{e.priceN}</span> <br/>
                                             <span className="services-time">{e.timeN}</span>
-                                            <button className="booking">Book Now</button>
+                                            <a href="http://localhost/db.php"><button className="booking">Book Now</button></a>
                                         </div>
 
                                     </div>   

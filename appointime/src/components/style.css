@@ -25,6 +25,7 @@
   margin-top: 10px;
 }
 
+
 .menu{
   float: right;
   list-style: none;
@@ -148,6 +149,14 @@
   border-radius: 20px;
   margin-bottom: 2%;
   background-color: #D79771;
+}
+
+.container-men{
+  border-radius: 20px;
+  margin-bottom: 2%;
+  background-color: #D79771;
+  position: relative;
+  top: -160px;
 }
 
 .card-description{
@@ -292,7 +301,9 @@
 }
 
 .firstimage:hover{
-  transform: scale(1.02);
+  transform: scale(1.1);
+  transition: 5ms;
+  border-radius: 20px;
 }
 
 .shop2{
@@ -322,7 +333,10 @@
   padding: 10px;
   background-color: black;
   color: white;
+  cursor: pointer;
 }
+
+
 .cart-btn{
   border: none;
   font-size: 30px;
@@ -856,7 +870,7 @@
 
 .men-main{
   margin-top: 30px;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 }
 
 .men-service{

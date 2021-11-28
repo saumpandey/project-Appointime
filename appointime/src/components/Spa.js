@@ -30,13 +30,13 @@ const Spa = () => {
                                         <h1 className="explore-service">Explore Services</h1>
                                         <span className="s1">{e.s1}</span> <br/>
                                         <span className="p1">{e.price}</span>
-                                        <button className="book-spa">Book Now</button> <br/> 
+                                        <a href="http://localhost/db.php"><button className="book-spa">Book Now</button> <br/> </a>
                                         <span className="s1">{e.s2}</span> <br/>
                                         <span className="p1">{e.price2}</span>
-                                        <button className="book-spa">Book Now</button> <br/> 
+                                        <a href="http://localhost/db.php"><button className="book-spa">Book Now</button> <br/> </a>
                                         <span className="s1">{e.s3}</span> <br/>
                                         <span className="p1">{e.price3}</span>
-                                        <button className="book-spa">Book Now</button> <br/>
+                                        <a href="http://localhost/db.php"><button className="book-spa">Book Now</button> <br/> </a>
                                     </div>
                                 )} 
                                 </div>
