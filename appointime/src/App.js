@@ -6,6 +6,7 @@ import Secondpage_women from './components/Secondpage_women';
 import Spa from './components/Spa';
 import Blog from './components/Blog';
 import Secondpage_men from './components/Secondpage_men';
+import Feedback from 'react-bootstrap/esm/Feedback';
 
 function App(){
 

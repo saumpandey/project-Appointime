@@ -15,12 +15,11 @@ function Footer(){
             <div class="footer">
                 <div class="section-1">
                     <img src={logo} style={{
-                        height: '280px',
-                        width: '260px',
+                        height: '180px',
+                        width: '160px',
                         margin:'80px 90px',
                     }}/>
-
-                    <div class="article2">
+                    <div className="article2">
                         <h2>Quick Links</h2>
                         <a href="/"> Home<br/></a>
                         <a href="/salon_women"> Salon<br/></a>
@@ -28,7 +27,7 @@ function Footer(){
                         <a href="/blog"> Blog<br/></a>
                     </div>
 
-                    <div class="article3">
+                    <div className="article3">
                         <h2>Contact Us</h2>
                         <ul>
                            <a href="mailto: thappointime@gmail.com" style={{
@@ -40,7 +39,7 @@ function Footer(){
                     </div>
                 </div>
 
-                <div class="section-3">
+                <div className="section-3">
                     <ul>
                        <li><FaFacebook style={{
                            color: 'blue',
@@ -57,7 +56,7 @@ function Footer(){
                     </ul>
                 </div>
                 
-                <div class="section-4">
+                <div className="section-4">
                     <p>
                         Copyright &copy; 2020 All Rights Reserved by <span>The AppoinTime</span>
                     </p>

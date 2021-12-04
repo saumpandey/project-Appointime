@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import { BlogApi } from './Api';
+import Feedback from './Feedback';
 
 const Blog = () => {
 
@@ -31,6 +32,7 @@ const Blog = () => {
                 </div>
                 <div className="margin"></div>
             </div>
+            <Feedback/>
             <Footer/>
         </div>
     )

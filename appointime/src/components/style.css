@@ -298,6 +298,7 @@
 .firstimage{
   width: 100%;
   height: 100%;
+  object-fit:fill;
 }
 
 .firstimage:hover{
@@ -611,12 +612,10 @@
 }
 
 .footer{
-  width: 100%;
-  height: 700px;
-  margin-top: auto;
-  background-color: #dadada;
-  position: relative;
-  top: -100px;
+ width: 100%;
+ bottom: 0;
+ height:680px;
+ background-color: rgba(187, 187, 187);
 }
 
 .main-footer{
@@ -630,7 +629,6 @@
 }
 
 .section-1{
-  display: inline-block;
   flex-direction: row;
   justify-content: space-between;
   padding: 30px 0px;
@@ -638,14 +636,15 @@
 
 .article2{
   position: relative;
-  top: -370px;
-  left: 600px;
+  top: -300px;
+  left: 400px;
 }
 
 .article2 h2{
   font-family: 'Times New Roman', Times, serif;
   font-size: 40px;
   line-height: 70px;
+  color: black;
 }
 
 .article2 a{
@@ -663,19 +662,21 @@
 
 .article3{
   position: relative;
-  top: -680px;
-  left: 990px;
+  top: -610px;
+  left: 900px;
 }
 
 .article3 h2{
   font-family: 'Times New Roman', Times, serif;
   font-size: 40px;
   line-height: 70px;
+  color: black;
 }
 
 .article3 ul{
   list-style: none;
   line-height: 40px;
+  color: black;
 }
 
 .article3 li{
@@ -691,8 +692,8 @@
 
 .section-3{
   position: relative;
-  top: -600px;
-  left: 470px;
+  top: -550px;
+  left: 400px;
 }
 
 .section-3 ul{
@@ -711,7 +712,8 @@
 
 .section-4{
   position: relative;
-  top: -600px;
+  top: -560px;
+  left: -60px;
 }
 
 .section-4 p{
@@ -775,14 +777,14 @@
 }
 
 .main-blog{
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 .margin{
   margin: 5% 0;
 }
 
 .parallax{
-  background-image: url("https://media.istockphoto.com/photos/classic-grooming-and-hairdressing-tools-on-wooden-background-picture-id1209208663?k=20&m=1209208663&s=612x612&w=0&h=ENYh13pn76o20PCmw5uLzNAtxy-oWl27q-xEZMfxXMI=");
+  background-image: url("https://media.istockphoto.com/photos/water-droplets-form-on-black-metal-surface-picture-id91823303?k=20&m=91823303&s=612x612&w=0&h=AZNw-lIkJujqwtYYuOwqWfRiUz9QsdaSfbB5FLF_kxc=");
   height: 140vh;
   width: 100%;
   flex-direction: column;
@@ -1102,5 +1104,88 @@
     position: relative;
     left: -310px;
   }
+}
+
+.form-main{
+  width:480px;
+  margin: 5% 2%;
+  padding:30px 40px;
+  background-color: #d6c09f;
+  position: relative;
+  top: 90px;
+}
+
+.feedback label{
+  font-size: 22px;
+  line-height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.feedback input{
+  height:30px;
+  width:80%;
+  padding: 4px;
+  font-size: 17px;
+}
+
+.feedback-btn{
+  font-size: 20px;
+  background-color: #a56f31;
+  padding: 15px;
+  border: none;
+  width:50%;
+  cursor: pointer;
+  margin-top:20px;
+}
+
+.feedback-main{
+  height:600px;
+  margin-bottom: 5%;
+  background-color: #E4CDA7;
+}
+
+.column{
+  background-color: #f0e3d4;
+  height:510px;
+  width:63%;
+  position: relative;
+  top: -420px;
+  left:550px;
+}
+
+.column h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  padding: 20px;
+  position: relative;
+  top: 20px;
+}
+
+.show-feedback{
+  width:90%;
+  height: 100px;
+  position: relative;
+  margin: 20px;
+  background-color:#DBD0C0;
+}
+
+.feedback-name{
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  line-height: 50px;
+}
+
+.feedback-contact{
+  font-size: 18px;
+  position: relative;
+  left: 420px;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.feedback-user{
+  padding: 10px;
+  font-size: 16px;
 }
 
