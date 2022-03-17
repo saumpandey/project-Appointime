@@ -616,12 +616,16 @@
  bottom: 0;
  height:680px;
  background-color: rgba(187, 187, 187);
+ overflow-y: hidden;
+ overflow-x: hidden;
 }
 
 .main-footer{
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  position: relative;
+  top: -100px;
 }
 
 .footer hr{
@@ -778,6 +782,8 @@
 
 .main-blog{
   margin-bottom: 5%;
+  position: relative;
+  top: -45px;
 }
 .margin{
   margin: 5% 0;
@@ -1141,7 +1147,7 @@
 
 .feedback-main{
   height:600px;
-  margin-bottom: 5%;
+  margin-bottom: 14%;
   background-color: #E4CDA7;
 }
 
