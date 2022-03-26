@@ -1,22 +1,49 @@
 {
   "name": "appointime",
-  "homepage": "https://saumpandey.github.io/project-Appointime",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "gh-pages": "^3.2.3",
+    "accepts": "^1.3.8",
+    "address": "^1.1.2",
+    "ajv": "^8.11.0",
+    "ajv-formats": "^2.1.1",
+    "ajv-keywords": "^5.1.0",
+    "at-least-node": "^1.0.0",
+    "body-parser": "^1.19.2",
+    "brace-expansion": "^2.0.1",
+    "case-sensitive-paths-webpack-plugin": "^2.4.0",
+    "cctx": "^1.0.1",
+    "chokidar": "^3.5.3",
+    "common-tags": "^1.8.2",
+    "content-disposition": "^0.5.4",
+    "cookie-signature": "^1.2.0",
+    "crypto-random-string": "^4.0.0",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "css-select": "^4.2.1",
+    "deepmerge": "^4.2.2",
+    "default-gateway": "^6.0.3",
+    "define-lazy-prop": "^3.0.0",
+    "destroy": "^1.2.0",
+    "detect-port-alt": "^1.1.6",
+    "dom-converter": "^0.2.0",
+    "ee-first": "^1.1.1",
+    "encodeurl": "^1.0.2",
+    "enhanced-resolve": "^5.9.2",
+    "escape-html": "^1.0.3",
+    "node-modules": "^1.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^2.1.3",
+    "react-modules": "^1.0.8",
+    "react-scripts": "^5.0.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -38,5 +65,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cross-spawn": "^7.0.3",
+    "grunt-contrib-jshint": "^3.2.0"
   }
 }
